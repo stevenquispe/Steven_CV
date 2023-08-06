@@ -1,0 +1,79 @@
+/* Colores y tipografía */
+@font-face {
+    font-family: "Raleway";
+    src: url("Fuentes/Raleway/Raleway-VariableFont_wght.ttf")
+}
+
+*{
+    font-family: Raleway;
+    font-size: 20px;
+}
+
+
+.background_primary{
+    background-color: #FFFFFF;
+}
+
+.background_secondary{
+    background-color: #0F044C;
+}
+
+.txt_color_Primary{
+    color: #0F044C;
+}
+
+.txt_color_Secondary{
+    color: #000000;
+}
+
+.txt_color_White{
+    color: #FFFFFF;
+}
+
+
+
+/* Tags */
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p, a{
+    font-size: 18px;
+}
+
+/* Informacion principal */
+#info_principal{
+    padding: 40px 80px 0px 80px;
+}
+
+table{
+    border-collapse: separate; 
+    border-spacing: 10px; 
+}
+
+#virtudes iframe{
+    width: 800px;
+    padding-bottom: 20px;
+}
+
+/* Informacion lateral */
+#info_lateral{
+    height: 1600px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
